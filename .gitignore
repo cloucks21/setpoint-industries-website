@@ -1,5 +1,6 @@
 .DS_Store
 setpoint-copy.md
+*.docx
 
 # Local Netlify folder
 .netlify
