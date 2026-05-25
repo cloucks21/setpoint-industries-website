@@ -234,7 +234,7 @@ nav a.active {
 .hero-image {
   background:
     linear-gradient(135deg, rgba(18, 37, 53, 0.88) 0%, rgba(30, 58, 79, 0.65) 55%, rgba(18, 37, 53, 0.88) 100%),
-    url('https://images.unsplash.com/photo-1601599967100-f16100982063?fm=jpg&q=80&w=2400&auto=format&fit=crop') center/cover no-repeat;
+    url('https://images.unsplash.com/photo-1741739813128-cb658a9a0f9a?fm=jpg&q=80&w=2400&auto=format&fit=crop') center/cover no-repeat;
   padding: 150px 0 140px;
   color: white;
 }
