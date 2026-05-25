@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Setpoint Industries</title>
+  <meta name="description" content="Reach Setpoint Industries. Commercial refrigeration service partnerships across the U.S. cold chain." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <svg class="logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="0" y="0" width="40" height="40" rx="2" fill="#1e3a4f" />
+            <circle cx="20" cy="22" r="11" stroke="#b87333" stroke-width="1.4" fill="none" />
+            <line x1="20" y1="9" x2="20" y2="12.5" stroke="#b87333" stroke-width="1.4" stroke-linecap="round" />
+            <line x1="30" y1="22" x2="27.5" y2="22" stroke="#b87333" stroke-width="1" stroke-linecap="round" />
+            <line x1="20" y1="34.5" x2="20" y2="32" stroke="#b87333" stroke-width="1" stroke-linecap="round" />
+            <line x1="10" y1="22" x2="12.5" y2="22" stroke="#b87333" stroke-width="1" stroke-linecap="round" />
+            <path d="M20 4.5 L17.5 8.5 L22.5 8.5 Z" fill="#b87333" />
+            <line x1="20" y1="22" x2="26" y2="16" stroke="#b87333" stroke-width="1.4" stroke-linecap="round" />
+            <circle cx="20" cy="22" r="1.5" fill="#b87333" />
+          </svg>
+          <span class="logo-text">Setpoint <span>Industries</span></span>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <span class="eyebrow">Start a conversation</span>
+        <h1>The first call is sixty minutes. No pitch, no number.</h1>
+        <p class="lede">Selling, or thinking about selling, the company you have built is not a decision made in a phone call. So we do not try to make one in ours. The first call is for us to understand the business you run, the customers who count on you, and what next looks like for you. If Setpoint is the right partner, we keep talking. If not, we say so.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="eyebrow">What to expect</span>
+          <h3>Two questions we will ask. Two we will not.</h3>
+          <p><strong>We will ask:</strong> what the business looks like today, and what you want next. That is most of a first call.</p>
+          <p><strong>We will not ask:</strong> for financials, a valuation expectation, or an introduction to your broker. None of those belong on a first call.</p>
+          <p>Whoever picks up the email is the same person who would be at the closing table. No SDRs, no BDRs, no associate doing intake.</p>
+
+          <div class="contact-detail">
+            <div class="contact-detail-label">Based in</div>
+            <div class="contact-detail-value">Houston, Texas</div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-label">Working with founders</div>
+            <div class="contact-detail-value">Nationally, across the cold chain</div>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First name</label>
+              <input type="text" id="firstName" name="firstName" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last name</label>
+              <input type="text" id="lastName" name="lastName" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" />
+          </div>
+
+          <div class="form-group">
+            <label for="role">Your role</label>
+            <select id="role" name="role">
+              <option value="">Select</option>
+              <option>Owner / Founder</option>
+              <option>President / CEO</option>
+              <option>Executive</option>
+              <option>Advisor or Intermediary</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="business">What kind of business?</label>
+            <select id="business" name="business">
+              <option value="">Select</option>
+              <option>Commercial refrigeration service</option>
+              <option>Cold storage / food distribution support</option>
+              <option>Commercial HVAC / mechanical service</option>
+              <option>Electrical / controls</option>
+              <option>Other commercial service business</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">A little about your business</label>
+            <textarea id="message" name="message" placeholder="Where you operate, the customers you serve, how long you have been in business, and anything you would like us to know."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="cream cta-section">
+    <div class="container-narrow">
+      <span class="eyebrow">Years away from a transaction?</span>
+      <h2>That is most of the conversations we have.</h2>
+      <p>The owners we end up partnering with usually reach out long before they are ready to sell. If you want to stay in touch quietly, send us a note. We will keep it on file, no follow-up calls, no drip campaign. We will be here when the timing is right.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <svg class="logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="0" y="0" width="40" height="40" rx="2" fill="#d4a574" />
+              <circle cx="20" cy="22" r="11" stroke="#122535" stroke-width="1.4" fill="none" />
+              <line x1="20" y1="9" x2="20" y2="12.5" stroke="#122535" stroke-width="1.4" stroke-linecap="round" />
+              <line x1="30" y1="22" x2="27.5" y2="22" stroke="#122535" stroke-width="1" stroke-linecap="round" />
+              <line x1="20" y1="34.5" x2="20" y2="32" stroke="#122535" stroke-width="1" stroke-linecap="round" />
+              <line x1="10" y1="22" x2="12.5" y2="22" stroke="#122535" stroke-width="1" stroke-linecap="round" />
+              <path d="M20 4.5 L17.5 8.5 L22.5 8.5 Z" fill="#122535" />
+              <line x1="20" y1="22" x2="26" y2="16" stroke="#122535" stroke-width="1.4" stroke-linecap="round" />
+              <circle cx="20" cy="22" r="1.5" fill="#122535" />
+            </svg>
+            <span class="logo-text">Setpoint <span>Industries</span></span>
+          </a>
+          <p>Commercial refrigeration and cold chain service partnerships. Working with founders nationally.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="contact.html">Reach out</a></li>
+            <li>Houston, Texas</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 Setpoint Industries. All rights reserved.</div>
+        <div>Commercial refrigeration partnerships across the U.S. cold chain.</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
