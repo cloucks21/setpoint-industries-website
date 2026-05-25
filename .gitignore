@@ -1,2 +1,5 @@
 .DS_Store
 setpoint-copy.md
+
+# Local Netlify folder
+.netlify
